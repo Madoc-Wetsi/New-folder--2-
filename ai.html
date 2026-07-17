@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/ai.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sideheader">
+        <div class="title">
+          <div class="logo">
+            <i class="fa fa-rocket" aria-hidden="true"></i>
+          </div>
+          <div class="brand">
+            <div class="brand-name">Vyn<span> Tora</span></div>
+            <div class="brand-tag">Student Support AI</div>
+          </div>
+        </div>
+        <div class="header-menu">
+          <button class="header-btn" aria-label="Sidebar menu">
+            <i class="fa fa-ellipsis-vertical"></i>
+          </button>
+          <div class="dropdown-menu">
+            <button class="dropdown-item">
+              <i class="fa fa-sun"></i>
+              <span>Light Mode</span>
+            </button>
+            <button class="dropdown-item">
+              <i class="fa fa-moon"></i>
+              <span>Dark Mode</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="contentArea">
+        <button class="newbtn">+ New Chat</button>
+        <div class="sidebar-menu">
+          
+        </div>
+      </div>
+
+      <div class="status">
+        <div class="status-header">
+          <div class="status-title">Student assistant</div>
+          <div class="status-badge"><i class="fa fa-circle"></i> Online</div>
+        </div>
+        <div class="name">
+          <div class="name-heading">Welcome, Student</div>
+          <div class="status-copy">
+            Get instant help with admissions, programs, faculty info, and study
+            support.
+          </div>
+          <div class="status-actions">
+            <div><i class="fa fa-graduation-cap"></i> 4 program tracks</div>
+            <div><i class="fa fa-headset"></i> 24/7 support</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="maincont">
+      <header>
+        <i class="fa-solid fa-bars"></i>
+        <h1>AI-POWERED STUDENT SUPPORT CHATBOT</h1>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="displayArea"></div>
+          <div class="inputArea">
+            <input type="text" placeholder="type here..." />
+            <button type="submit" id="send">
+              <i class="fa fa-paper-plane"></i> Send
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="text/javascript" src="js/ai.js"></script>
+  </body>
+</html>
