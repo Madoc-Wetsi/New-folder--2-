@@ -101,5 +101,5 @@ newbtn.addEventListener('click', () => {
  createMessage('Welcome! How can i be of your service', 'bot');
 });
 
-createMessage('Welcome! How can i be of your service', 'bot');
+createMessage('Welcome to student support! How can I be of your service', 'bot');
 
