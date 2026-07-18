@@ -10,6 +10,12 @@ body {
   color: #fff;
   display: flex;
   height: 100vh;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar{
+  width: 1px;
+
 }
 
 header {
@@ -103,6 +109,7 @@ header .fa-bars:hover {
 
 .user-message {
   max-width: fit-content;
+  text-align: justify;
   padding: 10px 14px;
   background: #2d2d33;
   color: #f7f7f7;
@@ -120,6 +127,10 @@ header .fa-bars:hover {
   margin: 10px 0;
   width: fit-content;
   margin-right: auto;
+}
+
+.typing{
+  font-style: italic;
 }
 
 .sidebar {
@@ -194,10 +205,6 @@ header .fa-bars:hover {
 
 .header-menu {
   position: relative;
-}
-
-.dropdown-menu {
-  display: none;
 }
 
 .contentArea {

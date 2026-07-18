@@ -93,4 +93,13 @@ input.addEventListener('keydown', (event) => {
   }
 });
 
+const newbtn = document.querySelector('.newbtn');
+
+newbtn.addEventListener('click', () => {
+ displayArea.textContent = " ";
+
+ createMessage('Welcome! How can i be of your service', 'bot');
+});
+
 createMessage('Welcome! How can i be of your service', 'bot');
+
