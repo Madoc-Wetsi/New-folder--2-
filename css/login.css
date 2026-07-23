@@ -10,11 +10,16 @@ body{
   justify-content: center;
 }
 
-.container{
+.container form{
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 5px;
+}
+
+input{
+  height: 30px;
+  width: 200px;
 }
 
 
