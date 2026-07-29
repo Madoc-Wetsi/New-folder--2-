@@ -15,6 +15,15 @@ function createMessage(message, sender) {
   displayArea.scrollTop = displayArea.scrollHeight;
 }
 
+const schoolInfo = `
+Ho Technical University (HTU) is one of Ghana's leading technical universities, located in Ho, Volta Region.
+It offers Higher National Diplomas (HND), Bachelor of Technology (BTech), and other professional programs.
+HTU has faculties in Applied Science and Technology, Engineering, Business and Management Studies, and Built Environment.
+The university provides academic support, modern library facilities, hostels, health services, and opportunities for internships and industrial attachments.
+Students can also join associations like SRC, NUGS, and departmental clubs.
+For admissions, visit the HTU Admission Office or check the official website for requirements and deadlines.
+`;
+
 const programs = [
   'HND COMPUTER SCIENCE',
   'HND ICT',
@@ -93,7 +102,7 @@ function sendMessage() {
   if (message.toLowerCase().includes('hello') || message.toLowerCase().includes('hi')) {
     reply = 'Hi, welcome to Ho Technical University! How can I assist you today?';
   } else if (message.toLowerCase().includes('program') || message.toLowerCase().includes('course')) {
-    reply = programs.join(',\n');
+    reply = schoolInfo + '\n\nPrograms Offered:\n' + programs.join(',\n');
   } else if (message.toLowerCase().includes('department')) {
     reply = department.join(',\n');
   } else if (message.toLowerCase().includes('service')) {

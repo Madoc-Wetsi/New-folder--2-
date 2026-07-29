@@ -128,7 +128,7 @@ header #edit:hover {
   margin: 10px 0;
   width: fit-content;
   margin-right: auto;
-  text-align: justify;
+  text-align: left;
 }
 
 .typing{
@@ -176,6 +176,7 @@ header #edit:hover {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  width: 300px;
 }
 
 .brand-name {
